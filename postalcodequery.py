@@ -6,8 +6,7 @@ import numpy as np
 
 def gen_legal_postal_codes():
     ref_sector_code = [
-        1, 2, 3, 4, 5, 6]     # D01
-    '''
+        1, 2, 3, 4, 5, 6      # D01
         7, 8,                 # D02
         14, 15, 16,           # D03
         9, 10,                # D04
@@ -36,7 +35,7 @@ def gen_legal_postal_codes():
         75, 76,               # D27
         79, 80                # D28
         ]
-    '''
+
     postal_codes = []
     for each in ref_sector_code:
         ### For Testing only, change the range to 10,000 for actual operation
