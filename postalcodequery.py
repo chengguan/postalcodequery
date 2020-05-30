@@ -4,6 +4,7 @@ import multiprocessing as mp
 from matplotlib import pyplot as plt
 import numpy as np
 
+# Sector code map.
 # Sector code map
 def gen_legal_postal_codes():
     ref_sector_code = [
